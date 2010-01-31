@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AccordsCalculator", "AccordsCalculator\AccordsCalculator.vcproj", "{64EB61C7-A9B0-45C1-A001-00AA7543743C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B1D83408-57A6-411B-AEBA-A9C319B46862} = {B1D83408-57A6-411B-AEBA-A9C319B46862}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MusicTheory", "MusicTheory\MusicTheory.vcproj", "{B1D83408-57A6-411B-AEBA-A9C319B46862}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Testing", "Testing\Testing.vcproj", "{B4C4DBE4-AF0D-44FC-99F1-54CE603F807C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0C19FE02-2F4E-4ECF-803E-CDB4E2D075D2} = {0C19FE02-2F4E-4ECF-803E-CDB4E2D075D2}
+		{B1D83408-57A6-411B-AEBA-A9C319B46862} = {B1D83408-57A6-411B-AEBA-A9C319B46862}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cppunit", "cppunit\src\cppunit\cppunit.vcproj", "{0C19FE02-2F4E-4ECF-803E-CDB4E2D075D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A1F7FBB8-1D3A-4310-9542-76F98773FB8F}"
+	ProjectSection(SolutionItems) = preProject
+		resources\sept_chords.xml = resources\sept_chords.xml
+		resources\simple_chords.xml = resources\simple_chords.xml
+		resources\text.xml = resources\text.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64EB61C7-A9B0-45C1-A001-00AA7543743C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{64EB61C7-A9B0-45C1-A001-00AA7543743C}.Debug|Win32.Build.0 = Debug|Win32
+		{64EB61C7-A9B0-45C1-A001-00AA7543743C}.Release|Win32.ActiveCfg = Release|Win32
+		{64EB61C7-A9B0-45C1-A001-00AA7543743C}.Release|Win32.Build.0 = Release|Win32
+		{B1D83408-57A6-411B-AEBA-A9C319B46862}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B1D83408-57A6-411B-AEBA-A9C319B46862}.Debug|Win32.Build.0 = Debug|Win32
+		{B1D83408-57A6-411B-AEBA-A9C319B46862}.Release|Win32.ActiveCfg = Release|Win32
+		{B1D83408-57A6-411B-AEBA-A9C319B46862}.Release|Win32.Build.0 = Release|Win32
+		{B4C4DBE4-AF0D-44FC-99F1-54CE603F807C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B4C4DBE4-AF0D-44FC-99F1-54CE603F807C}.Debug|Win32.Build.0 = Debug|Win32
+		{B4C4DBE4-AF0D-44FC-99F1-54CE603F807C}.Release|Win32.ActiveCfg = Release|Win32
+		{B4C4DBE4-AF0D-44FC-99F1-54CE603F807C}.Release|Win32.Build.0 = Release|Win32
+		{0C19FE02-2F4E-4ECF-803E-CDB4E2D075D2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0C19FE02-2F4E-4ECF-803E-CDB4E2D075D2}.Debug|Win32.Build.0 = Debug|Win32
+		{0C19FE02-2F4E-4ECF-803E-CDB4E2D075D2}.Release|Win32.ActiveCfg = Release|Win32
+		{0C19FE02-2F4E-4ECF-803E-CDB4E2D075D2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

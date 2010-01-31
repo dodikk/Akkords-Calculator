@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<messages>
+  <message id="small-major-sept">
+    Small Major Sept :  7
+  </message>
+
+  <message id="large-major-sepr">
+    Large Major Sept :  7maj ; 7+
+  </message>
+
+  <message id="small-minor-sept">
+    Small Minor Sept :  m7
+  </message>
+
+  <message id="large-minor-sept">
+    Large Minor Sept :  m7+
+  </message>
+
+  <message id="half-shrinked-sept">
+    Half Shrinked Sept : m5-7
+  </message>
+
+  <message id="shrinked-sept">
+    Shrinked Sept :  dim
+  </message>
+
+  <message id="enlarged-sept">
+    Enlarged Sept :  5+7+
+  </message>
+  
+</messages>

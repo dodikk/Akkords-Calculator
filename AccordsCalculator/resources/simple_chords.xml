@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<messages>
+  <message id="major-chord">
+    Major    :
+  </message>
+
+  <message id="minor-chord">
+    Minor    : m
+  </message>
+
+  <message id="enlarged-chord">
+    Enlarged : 5+ ; +
+  </message>
+
+  <message id="shrinked-chord">
+    Shrinked : m5-"
+  </message>
+
+
+
+</messages>
